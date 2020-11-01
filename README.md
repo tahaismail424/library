@@ -1,0 +1,1 @@
+Just a simple project logging books to practice with objects and prototype inheritance
