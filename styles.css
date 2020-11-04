@@ -1,6 +1,11 @@
 @font-face {
     font-family: scriptIn;
-    src: url(SCRIPTIN.tff);
+    src: url(SCRIPTIN.ttf);
+}
+
+@font-face {
+    font-family: bookie;
+    src: url(Essays1743.ttf);
 }
 
 
@@ -16,19 +21,70 @@ td, th {
 
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 10px;
 
+}
+
+th {
+    font-family: bookie, Arial;
+    background-color: #c7865d;
 }
 
 h1 {
     text-align: center;
     font-family: scriptIn, Arial;
+    font-size: 50px;
 }
 
 .toggle-read {
+    background-color: #945a2c;
+    border-color:  #945a2c;
+
 
 }
 
-.trash {
+.trash-button {
+    border: 0;
+    background: url(delete.png);
+    padding: 17px;
+    
+}
 
+.new-book {
+    display: block;
+    font-family: Arial;
+    margin: auto;
+    background-color:  #945a2c;
+    border-width: 2px;
+    margin-bottom: 20px;
+
+}
+
+.owl {
+
+    position: absolute;
+    height: auto;
+    width: 80px;
+    margin-left: 8px;
+    margin-top: 60px;
+
+}
+
+.book {
+
+    position: absolute;
+    height: auto;
+    width: 80px;
+    margin-left: 87%;
+    margin-top: 85px;
+
+}
+
+.quill {
+    position: absolute;
+    height: auto;
+    width: 80px;
+    margin: 50%;
+    margin-top: 30%
 }
 

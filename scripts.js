@@ -42,7 +42,7 @@ function addNewBook() {
 
         while (!validInput(newBook));
     }
-    newBook["read status"].toLowerCase === 'read' ? newBook["read status"] = true :
+    newBook["read status"].toLowerCase() === 'read' ? newBook["read status"] = true :
     newBook["read status"] = false;
     myLibrary.push(newBook); 
     updateLibrary();
